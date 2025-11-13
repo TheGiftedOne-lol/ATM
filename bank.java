@@ -108,7 +108,7 @@ public class bank{
     @SuppressWarnings("UseSpecificCatch")
      private static void playSound() {
         try {
-            File file = new File("C:\\Users\\lenovo\\Downloads\\beeping-robot-or-machine-102595.wav");
+            File file = new File("sound.wav");//your sound here
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
             Clip clip = AudioSystem.getClip();
             clip.open(audioStream);
